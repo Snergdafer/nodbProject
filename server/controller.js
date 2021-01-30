@@ -1,6 +1,6 @@
 const genCharacters = require('./charGen.js')
 
-let characters = genCharacters
+let characters = genCharacters.makeChar()
 
 let id = 6
 

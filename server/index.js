@@ -7,8 +7,8 @@ app.use(express.json())
 
 app.get('/api/tavern', control.getRecruits)
 app.post('/api/tavern', control.makeRecruit)
-app.put('/api/tavern', control.changeRecruit)
-app.delete('/api/tavern', control.removeRecruit)
+app.put('/api/tavern/:id', control.changeRecruit)
+app.delete('/api/tavern/:id', control.removeRecruit)
 
 const port = 4000
 
