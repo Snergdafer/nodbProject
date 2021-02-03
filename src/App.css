@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: top;
     height: 100vh;
+    background-color: #e38329;
 }
 
 .party{
@@ -11,6 +12,7 @@
     height: 99%;
     width: 200px;
     border: 3px solid black;
+    background-color: rgba(70, 199, 0, 50);
 }
 
 .recruits {
@@ -18,6 +20,7 @@
     height: 99%;
     width: 200px;
     border: 3px solid black;
+    background-color: rgb(54, 137, 209);
 }
 
 .viewer {
